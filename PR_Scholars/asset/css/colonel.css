@@ -1,0 +1,69 @@
+.colonel-hero{
+    background: url(../image/RacademyImage.jpg.jpeg) center/cover no-repeat;
+}
+.c_title_before{
+    background-color: #50584e;
+}
+.c_explore_courses_btn{
+    background-color:#e6af08 ;
+}
+.txt-yllow{
+    color:#e6af08;
+}
+.colonel-pgrms .book_now{
+    background: linear-gradient(to right, #7a843e 0%, #aa8a15 100%);
+}
+.bg1{
+    background: url(../image/nda-cds.jpg) center/cover no-repeat;
+}
+.bg2{
+    background: url(../image/afact.jpg) center/cover no-repeat;
+}
+.bg3{
+    background: url(../image/inet.jpg) center/cover no-repeat;
+}
+.bg4{
+    background: url(../image/ACC-Entry.jpg) top/cover no-repeat;
+}
+.bg5{
+    background: url(../image/seminar.jpg) center/cover no-repeat;
+}
+.ready-to-serve{
+    background-color: #68753e;
+    padding: 100px 0;
+}
+.ready-to-serve h3{
+    font-size: 40px;
+    font-weight: 600;
+}
+.ready-to-serve p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.ready-to-serve p span{
+    font-weight: 500;
+}
+.ready-to-serve .explore{
+    background-color:#e6af08;
+    border-radius: 10px;
+}
+.check-eligibility{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+}
+.ready-to-serve-btn a{
+    margin: 5px 10px;
+}
+@media screen and (max-width: 768px) {
+    .ready-to-serve-btn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .ready-to-serve h3{
+        font-size: 30px;
+    }
+    .ready-to-serve p{
+        font-size: 15px;
+    }
+}

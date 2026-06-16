@@ -1,0 +1,52 @@
+.institute-sec h2, .pillar-success h2, .founder h2, .about-pr h2  {
+    font-size: 50px;
+    font-weight: 600;
+}
+.institute-sec h2 span, .pillar-success h2 span, .founder h2 span, .about-pr h2 span{
+    color: #137ac3;
+}
+.pillar-success p{
+    font-weight: 400;
+}
+.pillar-success ul li{
+    color: #676e7e;
+    font-size: 14px;
+    padding:10px 0px;
+}
+.pillar-success ul li b{
+    color: #000000;
+    font-weight: 500;
+}
+.sub-list li{
+    padding:3px 0px !important;
+}
+.pillar-title {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+.pillar-title::before, .pillar-title::after {
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #137ac3;
+}
+.founder-img{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #1b1e23;
+}
+.founder-img h5{
+    font-size: 13px;
+}
+.text-sec{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    font-size: 18px;
+    color: #6d7483;
+}
+@media screen and (max-width: 768px) {
+    .institute-sec h2, .pillar-success h2, .founder h2, .about-pr h2 {
+      font-size: 35px;
+    }
+  }
